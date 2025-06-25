@@ -6,7 +6,6 @@ const ScrollToTop = (): null => {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    // If there's a hash, let the browser handle scrolling to the element
     if (hash) {
       const element = document.getElementById(hash.substring(1));
       if (element) {

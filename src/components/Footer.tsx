@@ -3,7 +3,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { NAV_LINKS } from '../constants';
 
-// Placeholder Social Icons
 const SocialIcon: React.FC<{ href: string, path: string, label: string }> = ({ href, path, label }) => (
   <a href={href} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors" aria-label={label}>
     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

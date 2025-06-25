@@ -11,7 +11,7 @@ import ReferFriendPage from './pages/ReferFriendPage';
 import SignupPage from './pages/SignupPage';
 import LoginPage from './pages/LoginPage';
 import ScrollToTop from './components/ScrollToTop';
-import ChatBot from './components/ChatBot';
+//import ChatBot from './components/ChatBot';
 import PrivateRoute from './components/PrivateRoute';
 
 const App: React.FC = () => {
