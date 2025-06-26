@@ -1,13 +1,12 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // 👈 Important for correct asset paths on Netlify
+  base: './',
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, '.'),
+      '@': '/src', // ✅ Assuming your main code is in /src
     }
   }
 });

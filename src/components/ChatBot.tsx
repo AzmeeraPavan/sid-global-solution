@@ -15,7 +15,7 @@ const ChatBot = () => {
   const [loading, setLoading] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const inactivityTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const inactivityTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const resetInactivityTimer = () => {
     if (inactivityTimerRef.current) {
