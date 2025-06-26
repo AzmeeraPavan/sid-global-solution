@@ -2,8 +2,6 @@ import React from 'react';
 import { SERVICES_DATA } from '../constants';
 import Card from '../components/common/Card';
 import IndustriesServedSection from '../components/sections/IndustriesServedSection'; // Import the new section
-import ChatBot from '../components/ChatBot';
-
 
 const ServicesPage: React.FC = () => {
   return (

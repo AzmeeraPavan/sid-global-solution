@@ -1,7 +1,6 @@
 import React from 'react';
 import { CAREERS_PAGE_POINTS } from '../constants';
 import Button from '../components/common/Button';
-import Card from '../components/common/Card'; // Optional: if we decide to use cards for sections
 import ChatBot from '../components/ChatBot';
 const CareersPage: React.FC = () => {
   return (
@@ -34,6 +33,7 @@ const CareersPage: React.FC = () => {
       <div className="mt-16 text-center">
         <Button to="/careers/refer-a-friend" variant="primary" size="lg">
           Refer a Friend
+
         </Button>
       </div>
 

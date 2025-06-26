@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { NavLinkItem, ServiceItem, TestimonialItem, TeamMember, IconProps, ProductItem, CareerPoint, ClientItem, LocationItem, IndustryItem } from './types';
 
 
 
@@ -340,3 +339,15 @@ export const INDUSTRIES_DATA: IndustryItem[] = [
     imageUrl: "https://i0.wp.com/sidgs.com/wp-content/uploads/2023/02/Exploring-Emerging-Technologies-for-Digital-Transformation-in-Health-Care-02.png?fit=1500%2C914&ssl=1"
   }
 ];
+import {
+  NavLinkItem,
+  ServiceItem,
+  TestimonialItem,
+  TeamMember,
+  IconProps,
+  ProductItem,
+  CareerPoint,
+  ClientItem,
+  LocationItem,
+  IndustryItem
+} from './types';

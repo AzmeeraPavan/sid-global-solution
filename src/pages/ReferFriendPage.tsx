@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Button from '../components/common/Button';
-import { ReferralFormData } from '../types';
+import { ReferralFormData } from '../types'; // ✅ Ensure this path is correct
 import ChatBot from '../components/ChatBot';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 const ReferFriendPage: React.FC = () => {
   const initialFormState: ReferralFormData = {
     candidateName: '',
@@ -51,10 +52,7 @@ const ReferFriendPage: React.FC = () => {
     try {
       const response = await fetch(`${API_BASE_URL}/referafriend`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
 
@@ -218,9 +216,11 @@ const ReferFriendPage: React.FC = () => {
           </div>
         </form>
       </div>
-      <ChatBot/>n
+
+      {/* Chatbot */}
+      <ChatBot />
     </div>
-  );vv
+  );
 };
 
 export default ReferFriendPage;

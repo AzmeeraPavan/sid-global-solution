@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { TEAM_MEMBERS_DATA, UserCircleIcon, LOCATIONS_DATA, MapPinIcon, LOCATION_ICON_CLASS } from '../constants';
+import { TEAM_MEMBERS_DATA, LOCATIONS_DATA, MapPinIcon, LOCATION_ICON_CLASS } from '../constants';
 import Card from '../components/common/Card';
 import ChatBot from '../components/ChatBot';
 const AboutPage: React.FC = () => {
